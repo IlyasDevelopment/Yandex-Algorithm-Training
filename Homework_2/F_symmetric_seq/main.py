@@ -17,3 +17,4 @@ result = symmetric_sequence(nums)
 print(len(result))
 if len(result):
     print(' '.join(map(str, result)))
+    # print(*result)
