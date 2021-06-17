@@ -10,6 +10,7 @@ def wordsindict(dictionary, text):
     return ans
 
 
+# complexity O(n*k^2 + m)
 dict = {}
 dict['abcd'] = 4
 dict['eft'] = 2
