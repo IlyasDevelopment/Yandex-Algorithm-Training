@@ -1,0 +1,13 @@
+genome_a = input()
+genome_b = input()
+
+b_pairs = set()
+for i in range(len(genome_b) - 1):
+    b_pairs.add(genome_b[i:i + 2])
+
+result = 0
+for i in range(len(genome_a) - 1):
+    if genome_a[i:i + 2] in b_pairs:
+        result += 1
+
+print(result)
