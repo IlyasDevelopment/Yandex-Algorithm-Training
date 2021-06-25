@@ -9,3 +9,8 @@ def merge(nums1, nums2):
             merged[k] = nums2[first2]
             first2 += 1
     return merged
+
+
+print(merge([1, 2, 4], [3, 5, 6]))
+print(merge([1, 5], [3, 4, 6]))
+# nums1 and nums2 are sorted
