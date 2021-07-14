@@ -5,7 +5,7 @@ def l_bin_search(l, r, check, check_params):
             r = m
         else:
             l = m + 1
-        return l
+    return l
 
 
 def r_bin_search(l, r, check, check_params):
@@ -15,4 +15,4 @@ def r_bin_search(l, r, check, check_params):
             l = m
         else:
             r = m - 1
-        return l
+    return l
