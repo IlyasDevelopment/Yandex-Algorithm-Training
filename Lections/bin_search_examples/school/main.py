@@ -8,7 +8,7 @@ def l_bin_search(l, r, check, check_params):
     return l
 
 
-def checkendownment(m, params):
+def check_endowment(m, params):
     n, k = params
     # ((k + m)/(n + m)) >= 1/3 but division is not desirable
     return (k + m) * 3 >= n + m
@@ -19,6 +19,6 @@ K = 3
 l = 0
 r = N
 # how many parents should be
-min_k = l_bin_search(l, r, checkendownment, (N, K))
+min_k = l_bin_search(l, r, check_endowment, (N, K))
 # how may parents we should add
 print(min_k - K)
