@@ -8,7 +8,7 @@ def l_bin_search(l, r, check, check_params):
     return l
 
 
-def checkproblemcount(days, params):
+def check_problem_count(days, params):
     n, k = params
     return (k + (k + days - 1)) * days // 2 >= n
 
@@ -17,4 +17,4 @@ N = 160
 K = 7
 l = 0
 r = N
-print(l_bin_search(l, r, checkproblemcount, (N, K)))
+print(l_bin_search(l, r, check_problem_count, (N, K)))
