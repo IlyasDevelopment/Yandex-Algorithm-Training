@@ -23,4 +23,4 @@
 Вывод
 1
 
-![alt text](/filename.png "Примечания")
+![alt text](https://github.com/IlyasDevelopment/yandex_algorithm_training/blob/main/Homework_6/D_mars/notes.png "Примечания")
